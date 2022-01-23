@@ -11,7 +11,6 @@ class Projekt(models.Model):
     teilnehmer = models.IntegerField()
     zielgruppe = models.TextField()
     sonstiges = models.TextField()
-    bild = models.ImageField()
     docs = models.FileField()
     created_date = models.DateTimeField(default=timezone.now)
 
